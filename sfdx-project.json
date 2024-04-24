@@ -1,0 +1,30 @@
+{
+
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "dependencies": [
+      {
+        "package": "HealthCloud",
+        "subscriberPackageVersionId": "04t4W000002Aw8TQAS"
+      },
+      {
+        "package": "amazonconnect",
+        "subscriberPackageVersionId": "04t4p000002FJ3Q"
+      },
+      {
+        "package": "User Provisioning Connector Utils",
+        "subscriberPackageVersionId": "04t41000001HSJCAA4"
+      }
+    ]
+    },
+    {
+      "path": "mdapi/diff-package/force-app",
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0"
+}
